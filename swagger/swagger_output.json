@@ -7,7 +7,12 @@
   },
   "servers": [
     {
-      "url": "http://localhost:3000/"
+      "url": "http://localhost:3000",
+      "description": "Localhost"
+    },
+    {
+      "url": "http://boardtasks-back.vercel.app/",
+      "description": "produção"
     }
   ],
   "paths": {
@@ -21,15 +26,5 @@
         }
       }
     }
-  },
-  "server": [
-    {
-      "url": "http://localhost:3000",
-      "description": "Localhost"
-    },
-    {
-      "url": "http://boardtasks-back.vercel.app/",
-      "description": "produção"
-    }
-  ]
+  }
 }
