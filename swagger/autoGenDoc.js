@@ -35,4 +35,7 @@ let doc = {
 
 swaggerAutogen(outputFile, endpointsFiles, doc).then(() => {
     console.log("doc em " + outputFile);
+    // if(process.env.NODE_ENV !== 'production') {
+    //     require("../index.js");
+    // }
 });
